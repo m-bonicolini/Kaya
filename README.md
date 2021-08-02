@@ -10,11 +10,14 @@ The project is released under GPL V2 (https://www.gnu.org/licenses/old-licenses/
   - AUTHORS list the authors of the project
   - LICENSE is the text of the GPL V2
   - Makefile is the makefile of the project for the compilation in the umps environment
-  - doc/ contain the static documentation of the project (KAYA specification document and umps emulator guide) as pdf. It is possible to generate the html docs via the doxygen command. See Doxyfile for info about the documentation format
+  - doc/ contain the static documentation of the project (KAYA specification document and umps emulator guide) as pdf. 
+  
+ It is possible to generate the html docs via the doxygen command. See Doxyfile for info about the documentation format
   - e/ static header
   - h/ dynamic header usable out of kernel space
   - src/ the source code of the kernel
   - umps/ header for the umps emulator
+  - experimental-scheduler/ the dir with the experimental scheduler implementation
 
 # Overview
 The initial.c  init the kernel data struct and start the first process with the load of p2test.0.1.c test function. 
@@ -27,8 +30,7 @@ In future may be nice to implement a strategy for a dynamic relocation of the ke
 
 
 ### Note 
-Exist an experimental scheduler with an alternative implementation of some system call and an API. 
-Also a kutil module is implemented for utility functions in kernel space (like memcpy(), memset()...). 
+The experimental scheduler path is an alternative implementation of the scheduler with a system call refactoring system call and a new API. It include also a kutil module for utility functions(like memcpy(), memset()...). 
 The experimental scheduler implement the priority queue and for now it work with some issue. 
  
 For info mail to matteo.bonicolini@gmail.com
