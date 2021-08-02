@@ -3,7 +3,7 @@
 KAYA is a monolithic kernel written for MIPS that is a Dijkstra  OS remake (the key system call are P() and V() ) with a round robin FIFO scheduler. 
 It implement the basic handler of a modern OS and it can be used in the emebedded environment. 
 It is written for the Operating System Course at University of Bologna and it run in the umps emulator. 
-The project is released under GPL V2 (https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+The project is a Free and Open Source Software under the GPL V2 (https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
 # Directory Structure
 
