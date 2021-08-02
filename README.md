@@ -30,7 +30,7 @@ In future may be nice to implement a strategy for a dynamic relocation of the ke
 
 
 ### Note 
-The experimental scheduler path is an alternative implementation of the scheduler with a system call refactoring system call and a new API. It include also a kutil module for utility functions(like memcpy(), memset()...). 
+The experimental scheduler path is an alternative implementation of the scheduler with a system call refactoring and a new API. It include also a kutil module for utility functions(like memcpy(), memset()...). 
 The experimental scheduler implement the priority queue and for now it work with some issue. 
  
 For info mail to matteo.bonicolini@gmail.com
